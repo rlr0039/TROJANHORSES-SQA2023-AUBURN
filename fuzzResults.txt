@@ -1,0 +1,113 @@
+'''
+Trojan Horses
+April 17, 2023
+Fuzzing methods and values results
+'''
+
+FUNCTION 3 - Testing constructHelmString from graphtaint.py with int input
+	result = constructHelmString(0)
+
+Error returned:
+Traceback (most recent call last):
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 38, in <module>
+    simpleFuzzer()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 35, in simpleFuzzer
+    fuzzValues()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 17, in fuzzValues
+    result = constructHelmString(0)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\graphtaint.py", line 23, in constructHelmString
+    upper_key, key, _ = hiera_tuple
+    ^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable int object
+
+Bug discovered:
+- The function constructHelmString does not check for an expected data type (string); therefore, when an unexpected value (None) is passed, the function errors.
+
+
+================================================================================================================================================================================
+
+FUNCTION 2 - Testing getYAMLFiles from scanner.py with None input
+	result = getYAMLFiles(None)
+
+Error returned:
+Traceback (most recent call last):
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 38, in <module>
+    simpleFuzzer()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 35, in simpleFuzzer
+    fuzzValues()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 20, in fuzzValues
+    result = getYAMLFiles(None)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\scanner.py", line 15, in getYAMLFiles
+    for root_, dirs, files_ in os.walk( path_to_dir ):
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 343, in walk
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+Bug discovered:
+- The function getYAMLFiles does not check for an expected data type (string, bytes, or os.PathLike); therefore, when an unexpected value (None) is passed, the function errors.
+
+
+================================================================================================================================================================================
+FUNCTION 3 - Testing getItemFromSecret from scanner.py with boolean and None inputs
+   result = getItemFromSecret(True, None)
+
+Error returned:
+Traceback (most recent call last):
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 38, in <module>
+    simpleFuzzer()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 35, in simpleFuzzer
+    fuzzValues()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 23, in fuzzValues
+    result = getItemFromSecret(True, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\scanner.py", line 173, in getItemFromSecret
+    for key_name , key_tup in dict_sec.items():
+                              ^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'items'
+
+Bug discovered:
+- The function getItemFromSecret does not check for an expected data type (dictionary or integer); therefore, when an unexpected value (boolean and None) is passed, the function errors.
+
+================================================================================================================================================================================
+FUNCTION 4 - Testing checkIfValidHelm from parser.py with an integer input
+	result = checkIfValidHelm(500)
+
+Error returned:
+Traceback (most recent call last):
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 34, in <module>
+    simpleFuzzer()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 31, in simpleFuzzer
+    fuzzValues()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 23, in fuzzValues
+    result = checkIfValidHelm(500)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\parser.py", line 115, in checkIfValidHelm
+    if ( (constants.HELM_KW in path_script) or (constants.CHART_KW in path_script) or (constants.SERVICE_KW in path_script) or (constants.INGRESS_KW in path_script)  or(constants.HELM_DEPLOY_KW in path_script) or (constants.CONFIG_KW in path_script) )  and (constants.VALUE_KW in path_script) :
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'int' is not iterable
+
+Bug discovered:
+- The function checkIfValidHelm does not check for an expected data type (string); therefore, when an unexpected value (integer) is passed, the function errors.
+
+================================================================================================================================================================================
+FUNCTION 5 - Testing readYAMLAsStr from parser.py with an integer input
+    result = readYAMLAsStr(500)
+
+Error returned:
+Traceback (most recent call last):
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 34, in <module>
+    simpleFuzzer()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 31, in simpleFuzzer
+    fuzzValues()
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\fuzz.py", line 25, in fuzzValues
+    result = readYAMLAsStr(500)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rache\Desktop\COMP5710FinalProject\TROJANHORSES-SQA2023-AUBURN\KubeSec\KubeSec-master\parser.py", line 122, in readYAMLAsStr
+    with open( path_script , constants.FILE_READ_FLAG) as file_:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
+
+Bug discovered:
+- The function readYAMLAsStr does not check for an expected data type (string); therefore, when an unexpected value (integer) is passed, the function errors.
