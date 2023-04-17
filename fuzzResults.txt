@@ -24,7 +24,6 @@ TypeError: cannot unpack non-iterable int object
 Bug discovered:
 - The function constructHelmString does not check for an expected data type (string); therefore, when an unexpected value (None) is passed, the function errors.
 
-
 ================================================================================================================================================================================
 
 FUNCTION 2 - Testing getYAMLFiles from scanner.py with None input
@@ -47,7 +46,6 @@ TypeError: expected str, bytes or os.PathLike object, not NoneType
 
 Bug discovered:
 - The function getYAMLFiles does not check for an expected data type (string, bytes, or os.PathLike); therefore, when an unexpected value (None) is passed, the function errors.
-
 
 ================================================================================================================================================================================
 FUNCTION 3 - Testing getItemFromSecret from scanner.py with boolean and None inputs
