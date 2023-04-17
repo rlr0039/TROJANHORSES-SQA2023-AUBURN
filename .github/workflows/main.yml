@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+    - main 
+    
+jobs:
+  fuzz_job:
+    name: fuzzing
+    runs-on: [windows-latest, macos-latest, ubuntu-latest]
+    
+    steps:
+    - name: running fuzz.py
+      run: python fuzz.py
+    
