@@ -13,20 +13,44 @@ from parser import readYAMLAsStr
 
 def fuzzValues():
     result = ''
-
-    # scanner.py constructHelmString integer
-    #result = constructHelmString(0)
-    # scanner.py getYAMLFiles None object
-    #result = getYAMLFiles(None)
-    # scanner.py getItemFromSecret boolean and None values
-    #result = getItemFromSecret(True, None)
-    # parser.py checkIfValidHelm integer
-    #result = checkIfValidHelm(500)
-    # parser.py readYAMLAsStr integer
-    #result = readYAMLAsStr(500)
-
-    print(result)
-    print('='*100)
+    value = ''
+    value1 = ''
+    value2 = ''
+    for i in range(5):
+        try:
+            if i == 0:
+                methodTest = 'scanner.py constructHelmString integer'
+                value = 0
+                result = constructHelmString(value)
+            if i ==1:
+                methodTest = 'scanner.py getYAMLFiles None object'
+                value = None
+                result = getYAMLFiles(value)
+            if i == 2:
+                methodTest = 'scanner.py getItemFromSecret boolean and None values'
+                value1 = True
+                value2 = None
+                result = getItemFromSecret(value1, value2)
+            if i == 3:
+                methodTest = 'parser.py checkIfValidHelm integer'
+                value = 500
+                result = checkIfValidHelm(value)
+            if i == 4:
+                methodTest = 'parser.py readYAMLAsStr integer'
+                value = 500
+                result = readYAMLAsStr(value)
+        except Exception as temp:
+            print('Fuzzing: ' + methodTest)
+            print('\nFuzz values:')
+            if i != 2:
+                print(value)
+            if i == 2:
+                print(value1)
+                print(value2)
+            print('\nResult:')
+            print(temp)
+            print('='*100)
+            print('\n')
 
 def simpleFuzzer():
     fuzzValues()
