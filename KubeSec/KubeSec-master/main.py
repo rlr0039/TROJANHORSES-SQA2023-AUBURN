@@ -6,8 +6,12 @@ Source Code to Run Tool on All Kubernetes Manifests
 import scanner 
 import pandas as pd 
 import constants
+import logging_example
 
 def getCountFromAnalysis(ls_):
+    #Logging 2
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Starting to list in main.py')
     list2ret           = []
     for tup_ in ls_:
         within_sec_cnt = 0 
@@ -43,6 +47,8 @@ def getCountFromAnalysis(ls_):
         helm_flag      = tup_[22]
 
         list2ret.append(  ( dir_name, script_name, within_sec_cnt, len(taint_secret), len(privilege_dic), len(http_dict), len(secuContextDic), len(nSpaceDict), len(absentResoDict), len(rollUpdateDic), len(netPolicyDict), len(pidfDict), len(ipcDict), len(dockersockDic), len(hostNetDict), len(cap_sys_dic), len(host_alias_dic), len(allow_priv_dic), len(unconfined_dic), len(cap_module_dic) , k8s_flag, helm_flag  )  )
+    #Continued logging 2
+    logObj.info('Done getting list in main.py')
     return list2ret
 
 
@@ -66,7 +72,10 @@ if __name__ == '__main__':
 
     content_as_ls   = scanner.runScanner( ORG_DIR )
     df_all          = pd.DataFrame( getCountFromAnalysis( content_as_ls ) )
-
+    
+    #Logging 1
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Outputting to csv file from main.py')
     df_all.to_csv( OUTPUT_FILE_CSV, header= constants.CSV_HEADER , index=False, encoding= constants.CSV_ENCODING ) 
 
 

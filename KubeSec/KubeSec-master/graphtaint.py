@@ -7,8 +7,12 @@ import constants
 import parser 
 import os 
 from itertools import combinations
+import logging_example
 
 def getYAMLFiles(path_to_dir):
+    #Logging 5
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Getting YAML files in graphtaint.py')
     valid_  = [] 
     for root_, dirs, files_ in os.walk( path_to_dir ):
        for file_ in files_:
@@ -18,11 +22,15 @@ def getYAMLFiles(path_to_dir):
                valid_.append(full_p_file)
     return valid_ 
 
-def constructHelmString(hiera_tuple): 
+def constructHelmString(hiera_tuple):
+    #Logging 6
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Constructing helm string in graphtaint.py')
     str2ret  = constants.YAML_SKIPPING_TEXT 
     upper_key, key, _ = hiera_tuple 
     if ( upper_key != key  ):
         str2ret =   constants.DOT_SYMBOL +  constants.HELM_VALUE_KW + constants.DOT_SYMBOL + upper_key + constants.DOT_SYMBOL + key 
+    logObj.info('Done constructing helm string in graphtaint.py')
     return str2ret 
 
 def getHelmTemplateContent( templ_dir ):
@@ -123,6 +131,9 @@ def readBashAsStr( path_sh_script ):
     return _as_str
 
 def getTaintsFromConfigMaps( script_path ):
+    #Logging 7
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Getting taints from config maps in graphtaint.py')
     list2Return = [] 
     config_map_dir  = os.path.dirname( script_path )  + constants.SLASH_SYMBOL    
     script_name     = script_path.replace( config_map_dir, constants.YAML_SKIPPING_TEXT )
