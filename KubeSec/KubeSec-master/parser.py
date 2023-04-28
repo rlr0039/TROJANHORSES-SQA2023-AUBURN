@@ -6,14 +6,20 @@ Parser to file YAML files
 
 import yaml
 import constants 
+import logging_example
 
 def checkIfWeirdYAML(yaml_script):
     '''
     to filter invalid YAMLs such as ./github/workflows/ 
     '''
+    #Logging 3
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Checking YAML script in parser.py')
     val = False
     if ( any(x_ in yaml_script for x_ in constants.WEIRD_PATHS  ) ):
         val = True 
+        logObj.info('YAML script was weird')
+    logObj.info('Done checking YAML script in parser.py')
     return val 
 
 
@@ -111,9 +117,13 @@ def getValsFromKey(dict_, target, list_holder  ):
                         getValsFromKey(ls, target, list_holder)
 
 def checkIfValidHelm(path_script):
+    #Logging 4
+    logObj = logging_example.giveMeLoggingObject()
+    logObj.info('Checking if helm is valid in parser.py')
     val_ret = False 
     if ( (constants.HELM_KW in path_script) or (constants.CHART_KW in path_script) or (constants.SERVICE_KW in path_script) or (constants.INGRESS_KW in path_script)  or(constants.HELM_DEPLOY_KW in path_script) or (constants.CONFIG_KW in path_script) )  and (constants.VALUE_KW in path_script) :
         val_ret = True 
+    logObj.info('Done checking helm in parser.py')
     return val_ret
 
 
