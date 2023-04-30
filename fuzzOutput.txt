@@ -1,0 +1,57 @@
+Script started on 2023-04-30 15:00:34-05:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;blakemo@DESKTOP-GDG7PM8: /mnt/c/Users/bamaw/Downloads/TROJANHORSES-SQA2023-AUBURN/KubeSec/KubeSec-master[01;32mblakemo@DESKTOP-GDG7PM8[00m:[01;34m/mnt/c/Users/bamaw/Downloads/TROJANHORSES-SQA2023-AUBURN/KubeSec/KubeSec-master[00m$ python3 fuzz.py [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ky
+Fuzzing: scanner.py constructHelmString integer
+
+Fuzz values:
+0
+
+Result:
+cannot unpack non-iterable int object
+====================================================================================================
+
+
+Fuzzing: scanner.py getYAMLFiles None object
+
+Fuzz values:
+None
+
+Result:
+expected str, bytes or os.PathLike object, not NoneType
+====================================================================================================
+
+
+Fuzzing: scanner.py getItemFromSecret boolean and None values
+
+Fuzz values:
+True
+None
+
+Result:
+'bool' object has no attribute 'items'
+====================================================================================================
+
+
+Fuzzing: parser.py checkIfValidHelm integer
+
+Fuzz values:
+500
+
+Result:
+argument of type 'int' is not iterable
+====================================================================================================
+
+
+Fuzzing: parser.py readYAMLAsStr integer
+
+Fuzz values:
+500
+
+Result:
+[Errno 9] Bad file descriptor
+====================================================================================================
+
+
+]0;blakemo@DESKTOP-GDG7PM8: /mnt/c/Users/bamaw/Downloads/TROJANHORSES-SQA2023-AUBURN/KubeSec/KubeSec-master[01;32mblakemo@DESKTOP-GDG7PM8[00m:[01;34m/mnt/c/Users/bamaw/Downloads/TROJANHORSES-SQA2023-AUBURN/KubeSec/KubeSec-master[00m$ exit
+exit
+
+Script done on 2023-04-30 15:01:05-05:00 [COMMAND_EXIT_CODE="0"]
