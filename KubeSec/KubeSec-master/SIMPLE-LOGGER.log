@@ -1,0 +1,512 @@
+2023-04-30 15:01:01,239 Constructing helm string in graphtaint.py
+2023-04-30 15:01:01,242 Checking if helm is valid in parser.py
+2023-04-30 15:19:54,467 Starting to list in main.py
+2023-04-30 15:19:54,468 Done getting list in main.py
+2023-04-30 15:19:54,479 Outputting to csv file from main.py
+2023-04-30 15:36:33,189 Checking YAML script in parser.py
+2023-04-30 15:36:33,190 Done checking YAML script in parser.py
+2023-04-30 15:36:33,214 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,214 Done checking helm in parser.py
+2023-04-30 15:36:33,289 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,289 Done checking helm in parser.py
+2023-04-30 15:36:33,292 Checking YAML script in parser.py
+2023-04-30 15:36:33,292 Done checking YAML script in parser.py
+2023-04-30 15:36:33,314 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,314 Done checking helm in parser.py
+2023-04-30 15:36:33,314 Checking YAML script in parser.py
+2023-04-30 15:36:33,314 Done checking YAML script in parser.py
+2023-04-30 15:36:33,355 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,355 Done checking helm in parser.py
+2023-04-30 15:36:33,580 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,580 Done checking helm in parser.py
+2023-04-30 15:36:33,588 Checking YAML script in parser.py
+2023-04-30 15:36:33,588 Done checking YAML script in parser.py
+2023-04-30 15:36:33,624 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,624 Done checking helm in parser.py
+2023-04-30 15:36:33,766 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,767 Done checking helm in parser.py
+2023-04-30 15:36:33,772 Checking YAML script in parser.py
+2023-04-30 15:36:33,772 Done checking YAML script in parser.py
+2023-04-30 15:36:33,830 Checking if helm is valid in parser.py
+2023-04-30 15:36:33,831 Done checking helm in parser.py
+2023-04-30 15:36:34,286 Checking if helm is valid in parser.py
+2023-04-30 15:36:34,286 Done checking helm in parser.py
+2023-04-30 15:36:34,300 Checking YAML script in parser.py
+2023-04-30 15:36:34,300 Done checking YAML script in parser.py
+2023-04-30 15:36:34,417 Checking if helm is valid in parser.py
+2023-04-30 15:36:34,417 Done checking helm in parser.py
+2023-04-30 15:36:35,112 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,113 Done checking helm in parser.py
+2023-04-30 15:36:35,134 Checking YAML script in parser.py
+2023-04-30 15:36:35,134 Done checking YAML script in parser.py
+2023-04-30 15:36:35,176 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,176 Done checking helm in parser.py
+2023-04-30 15:36:35,355 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,355 Done checking helm in parser.py
+2023-04-30 15:36:35,362 Checking YAML script in parser.py
+2023-04-30 15:36:35,362 Done checking YAML script in parser.py
+2023-04-30 15:36:35,405 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,405 Done checking helm in parser.py
+2023-04-30 15:36:35,406 Checking YAML script in parser.py
+2023-04-30 15:36:35,406 Done checking YAML script in parser.py
+2023-04-30 15:36:35,554 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,554 Done checking helm in parser.py
+2023-04-30 15:36:35,554 Checking YAML script in parser.py
+2023-04-30 15:36:35,554 Done checking YAML script in parser.py
+2023-04-30 15:36:35,749 Checking if helm is valid in parser.py
+2023-04-30 15:36:35,749 Done checking helm in parser.py
+2023-04-30 15:36:37,243 Checking if helm is valid in parser.py
+2023-04-30 15:36:37,243 Done checking helm in parser.py
+2023-04-30 15:36:37,289 Checking YAML script in parser.py
+2023-04-30 15:36:37,289 Done checking YAML script in parser.py
+2023-04-30 15:36:37,442 Checking if helm is valid in parser.py
+2023-04-30 15:36:37,442 Done checking helm in parser.py
+2023-04-30 15:36:38,719 Checking if helm is valid in parser.py
+2023-04-30 15:36:38,720 Done checking helm in parser.py
+2023-04-30 15:36:38,766 Checking YAML script in parser.py
+2023-04-30 15:36:38,767 Done checking YAML script in parser.py
+2023-04-30 15:36:38,803 Checking if helm is valid in parser.py
+2023-04-30 15:36:38,803 Done checking helm in parser.py
+2023-04-30 15:36:38,839 Checking if helm is valid in parser.py
+2023-04-30 15:36:38,840 Done checking helm in parser.py
+2023-04-30 15:36:38,843 Checking if helm is valid in parser.py
+2023-04-30 15:36:38,843 Done checking helm in parser.py
+2023-04-30 15:36:38,843 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,844 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,845 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,846 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,846 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,847 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,847 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,847 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,848 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,849 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,849 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,849 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,849 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,850 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,850 Constructing helm string in graphtaint.py
+2023-04-30 15:36:38,850 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:38,884 Checking if helm is valid in parser.py
+2023-04-30 15:36:38,884 Done checking helm in parser.py
+2023-04-30 15:36:39,140 Checking if helm is valid in parser.py
+2023-04-30 15:36:39,140 Done checking helm in parser.py
+2023-04-30 15:36:39,157 Checking YAML script in parser.py
+2023-04-30 15:36:39,158 Done checking YAML script in parser.py
+2023-04-30 15:36:39,421 Checking if helm is valid in parser.py
+2023-04-30 15:36:39,421 Done checking helm in parser.py
+2023-04-30 15:36:39,421 Checking YAML script in parser.py
+2023-04-30 15:36:39,421 Done checking YAML script in parser.py
+2023-04-30 15:36:39,645 Checking if helm is valid in parser.py
+2023-04-30 15:36:39,646 Done checking helm in parser.py
+2023-04-30 15:36:41,657 Checking if helm is valid in parser.py
+2023-04-30 15:36:41,657 Done checking helm in parser.py
+2023-04-30 15:36:41,719 Checking YAML script in parser.py
+2023-04-30 15:36:41,720 Done checking YAML script in parser.py
+2023-04-30 15:36:41,785 Checking if helm is valid in parser.py
+2023-04-30 15:36:41,785 Done checking helm in parser.py
+2023-04-30 15:36:42,105 Checking if helm is valid in parser.py
+2023-04-30 15:36:42,105 Done checking helm in parser.py
+2023-04-30 15:36:42,116 Checking YAML script in parser.py
+2023-04-30 15:36:42,116 Done checking YAML script in parser.py
+2023-04-30 15:36:42,229 Checking if helm is valid in parser.py
+2023-04-30 15:36:42,229 Done checking helm in parser.py
+2023-04-30 15:36:42,970 Checking if helm is valid in parser.py
+2023-04-30 15:36:42,970 Done checking helm in parser.py
+2023-04-30 15:36:42,992 Checking YAML script in parser.py
+2023-04-30 15:36:42,993 Done checking YAML script in parser.py
+2023-04-30 15:36:43,129 Checking if helm is valid in parser.py
+2023-04-30 15:36:43,129 Done checking helm in parser.py
+2023-04-30 15:36:44,187 Checking if helm is valid in parser.py
+2023-04-30 15:36:44,188 Done checking helm in parser.py
+2023-04-30 15:36:44,228 Checking YAML script in parser.py
+2023-04-30 15:36:44,229 Done checking YAML script in parser.py
+2023-04-30 15:36:44,519 Checking if helm is valid in parser.py
+2023-04-30 15:36:44,519 Done checking helm in parser.py
+2023-04-30 15:36:44,519 Checking YAML script in parser.py
+2023-04-30 15:36:44,519 Done checking YAML script in parser.py
+2023-04-30 15:36:44,561 Checking if helm is valid in parser.py
+2023-04-30 15:36:44,561 Done checking helm in parser.py
+2023-04-30 15:36:44,725 Checking if helm is valid in parser.py
+2023-04-30 15:36:44,725 Done checking helm in parser.py
+2023-04-30 15:36:44,730 Checking YAML script in parser.py
+2023-04-30 15:36:44,731 Done checking YAML script in parser.py
+2023-04-30 15:36:44,870 Checking if helm is valid in parser.py
+2023-04-30 15:36:44,871 Done checking helm in parser.py
+2023-04-30 15:36:45,946 Checking if helm is valid in parser.py
+2023-04-30 15:36:45,946 Done checking helm in parser.py
+2023-04-30 15:36:45,978 Checking YAML script in parser.py
+2023-04-30 15:36:45,978 Done checking YAML script in parser.py
+2023-04-30 15:36:46,041 Checking if helm is valid in parser.py
+2023-04-30 15:36:46,041 Done checking helm in parser.py
+2023-04-30 15:36:46,330 Checking if helm is valid in parser.py
+2023-04-30 15:36:46,330 Done checking helm in parser.py
+2023-04-30 15:36:46,340 Checking YAML script in parser.py
+2023-04-30 15:36:46,341 Done checking YAML script in parser.py
+2023-04-30 15:36:46,425 Checking if helm is valid in parser.py
+2023-04-30 15:36:46,425 Done checking helm in parser.py
+2023-04-30 15:36:47,019 Checking if helm is valid in parser.py
+2023-04-30 15:36:47,019 Done checking helm in parser.py
+2023-04-30 15:36:47,039 Checking YAML script in parser.py
+2023-04-30 15:36:47,039 Done checking YAML script in parser.py
+2023-04-30 15:36:47,109 Checking if helm is valid in parser.py
+2023-04-30 15:36:47,109 Done checking helm in parser.py
+2023-04-30 15:36:47,397 Checking if helm is valid in parser.py
+2023-04-30 15:36:47,397 Done checking helm in parser.py
+2023-04-30 15:36:47,407 Checking YAML script in parser.py
+2023-04-30 15:36:47,407 Done checking YAML script in parser.py
+2023-04-30 15:36:47,495 Checking if helm is valid in parser.py
+2023-04-30 15:36:47,496 Done checking helm in parser.py
+2023-04-30 15:36:48,002 Checking if helm is valid in parser.py
+2023-04-30 15:36:48,002 Done checking helm in parser.py
+2023-04-30 15:36:48,018 Checking YAML script in parser.py
+2023-04-30 15:36:48,018 Done checking YAML script in parser.py
+2023-04-30 15:36:48,107 Checking if helm is valid in parser.py
+2023-04-30 15:36:48,107 Done checking helm in parser.py
+2023-04-30 15:36:48,637 Checking if helm is valid in parser.py
+2023-04-30 15:36:48,638 Done checking helm in parser.py
+2023-04-30 15:36:48,654 Checking YAML script in parser.py
+2023-04-30 15:36:48,654 Done checking YAML script in parser.py
+2023-04-30 15:36:48,722 Checking if helm is valid in parser.py
+2023-04-30 15:36:48,722 Done checking helm in parser.py
+2023-04-30 15:36:49,318 Checking if helm is valid in parser.py
+2023-04-30 15:36:49,318 Done checking helm in parser.py
+2023-04-30 15:36:49,344 Checking YAML script in parser.py
+2023-04-30 15:36:49,344 Done checking YAML script in parser.py
+2023-04-30 15:36:49,422 Checking if helm is valid in parser.py
+2023-04-30 15:36:49,422 Done checking helm in parser.py
+2023-04-30 15:36:49,841 Checking if helm is valid in parser.py
+2023-04-30 15:36:49,842 Done checking helm in parser.py
+2023-04-30 15:36:49,856 Checking YAML script in parser.py
+2023-04-30 15:36:49,857 Done checking YAML script in parser.py
+2023-04-30 15:36:49,918 Checking if helm is valid in parser.py
+2023-04-30 15:36:49,918 Done checking helm in parser.py
+2023-04-30 15:36:50,231 Checking if helm is valid in parser.py
+2023-04-30 15:36:50,231 Done checking helm in parser.py
+2023-04-30 15:36:50,242 Checking YAML script in parser.py
+2023-04-30 15:36:50,242 Done checking YAML script in parser.py
+2023-04-30 15:36:50,314 Checking if helm is valid in parser.py
+2023-04-30 15:36:50,314 Done checking helm in parser.py
+2023-04-30 15:36:50,752 Checking if helm is valid in parser.py
+2023-04-30 15:36:50,752 Done checking helm in parser.py
+2023-04-30 15:36:50,766 Checking YAML script in parser.py
+2023-04-30 15:36:50,766 Done checking YAML script in parser.py
+2023-04-30 15:36:50,835 Checking if helm is valid in parser.py
+2023-04-30 15:36:50,836 Done checking helm in parser.py
+2023-04-30 15:36:51,142 Checking if helm is valid in parser.py
+2023-04-30 15:36:51,142 Done checking helm in parser.py
+2023-04-30 15:36:51,152 Checking YAML script in parser.py
+2023-04-30 15:36:51,152 Done checking YAML script in parser.py
+2023-04-30 15:36:51,229 Checking if helm is valid in parser.py
+2023-04-30 15:36:51,229 Done checking helm in parser.py
+2023-04-30 15:36:51,657 Checking if helm is valid in parser.py
+2023-04-30 15:36:51,657 Done checking helm in parser.py
+2023-04-30 15:36:51,671 Checking YAML script in parser.py
+2023-04-30 15:36:51,671 Done checking YAML script in parser.py
+2023-04-30 15:36:51,754 Checking if helm is valid in parser.py
+2023-04-30 15:36:51,754 Done checking helm in parser.py
+2023-04-30 15:36:52,154 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,154 Done checking helm in parser.py
+2023-04-30 15:36:52,167 Checking YAML script in parser.py
+2023-04-30 15:36:52,167 Done checking YAML script in parser.py
+2023-04-30 15:36:52,218 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,218 Done checking helm in parser.py
+2023-04-30 15:36:52,405 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,405 Done checking helm in parser.py
+2023-04-30 15:36:52,411 Checking YAML script in parser.py
+2023-04-30 15:36:52,411 Done checking YAML script in parser.py
+2023-04-30 15:36:52,461 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,462 Done checking helm in parser.py
+2023-04-30 15:36:52,653 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,653 Done checking helm in parser.py
+2023-04-30 15:36:52,659 Checking YAML script in parser.py
+2023-04-30 15:36:52,660 Done checking YAML script in parser.py
+2023-04-30 15:36:52,709 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,709 Done checking helm in parser.py
+2023-04-30 15:36:52,868 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,869 Done checking helm in parser.py
+2023-04-30 15:36:52,874 Checking YAML script in parser.py
+2023-04-30 15:36:52,874 Done checking YAML script in parser.py
+2023-04-30 15:36:52,912 Checking if helm is valid in parser.py
+2023-04-30 15:36:52,912 Done checking helm in parser.py
+2023-04-30 15:36:53,076 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,077 Done checking helm in parser.py
+2023-04-30 15:36:53,082 Checking YAML script in parser.py
+2023-04-30 15:36:53,082 Done checking YAML script in parser.py
+2023-04-30 15:36:53,120 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,120 Done checking helm in parser.py
+2023-04-30 15:36:53,304 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,304 Done checking helm in parser.py
+2023-04-30 15:36:53,311 Checking YAML script in parser.py
+2023-04-30 15:36:53,311 Done checking YAML script in parser.py
+2023-04-30 15:36:53,669 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,669 Done checking helm in parser.py
+2023-04-30 15:36:53,669 Checking YAML script in parser.py
+2023-04-30 15:36:53,670 Done checking YAML script in parser.py
+2023-04-30 15:36:53,709 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,710 Done checking helm in parser.py
+2023-04-30 15:36:53,710 Checking YAML script in parser.py
+2023-04-30 15:36:53,710 Done checking YAML script in parser.py
+2023-04-30 15:36:53,750 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,750 Done checking helm in parser.py
+2023-04-30 15:36:53,750 Checking YAML script in parser.py
+2023-04-30 15:36:53,751 Done checking YAML script in parser.py
+2023-04-30 15:36:53,769 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,769 Done checking helm in parser.py
+2023-04-30 15:36:53,808 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,808 Done checking helm in parser.py
+2023-04-30 15:36:53,810 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,810 Done checking helm in parser.py
+2023-04-30 15:36:53,810 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,811 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,812 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,813 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Constructing helm string in graphtaint.py
+2023-04-30 15:36:53,814 Done constructing helm string in graphtaint.py
+2023-04-30 15:36:53,851 Checking if helm is valid in parser.py
+2023-04-30 15:36:53,851 Done checking helm in parser.py
+2023-04-30 15:36:54,157 Checking if helm is valid in parser.py
+2023-04-30 15:36:54,157 Done checking helm in parser.py
+2023-04-30 15:36:54,180 Checking YAML script in parser.py
+2023-04-30 15:36:54,181 Done checking YAML script in parser.py
+2023-04-30 15:36:54,208 Checking if helm is valid in parser.py
+2023-04-30 15:36:54,209 Done checking helm in parser.py
+2023-04-30 15:36:54,344 Checking if helm is valid in parser.py
+2023-04-30 15:36:54,344 Done checking helm in parser.py
+2023-04-30 15:36:54,349 Checking YAML script in parser.py
+2023-04-30 15:36:54,349 Done checking YAML script in parser.py
+2023-04-30 15:36:54,457 Checking if helm is valid in parser.py
+2023-04-30 15:36:54,457 Done checking helm in parser.py
+2023-04-30 15:36:55,132 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,132 Done checking helm in parser.py
+2023-04-30 15:36:55,153 Checking YAML script in parser.py
+2023-04-30 15:36:55,153 Done checking YAML script in parser.py
+2023-04-30 15:36:55,206 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,207 Done checking helm in parser.py
+2023-04-30 15:36:55,487 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,487 Done checking helm in parser.py
+2023-04-30 15:36:55,496 Checking YAML script in parser.py
+2023-04-30 15:36:55,496 Done checking YAML script in parser.py
+2023-04-30 15:36:55,565 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,566 Done checking helm in parser.py
+2023-04-30 15:36:55,566 Checking YAML script in parser.py
+2023-04-30 15:36:55,566 Done checking YAML script in parser.py
+2023-04-30 15:36:55,665 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,665 Done checking helm in parser.py
+2023-04-30 15:36:55,666 Checking YAML script in parser.py
+2023-04-30 15:36:55,666 Done checking YAML script in parser.py
+2023-04-30 15:36:55,757 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,757 Done checking helm in parser.py
+2023-04-30 15:36:55,757 Checking YAML script in parser.py
+2023-04-30 15:36:55,757 Done checking YAML script in parser.py
+2023-04-30 15:36:55,810 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,810 Done checking helm in parser.py
+2023-04-30 15:36:55,810 Checking YAML script in parser.py
+2023-04-30 15:36:55,811 Done checking YAML script in parser.py
+2023-04-30 15:36:55,933 Checking if helm is valid in parser.py
+2023-04-30 15:36:55,933 Done checking helm in parser.py
+2023-04-30 15:36:56,748 Checking if helm is valid in parser.py
+2023-04-30 15:36:56,748 Done checking helm in parser.py
+2023-04-30 15:36:56,773 Checking YAML script in parser.py
+2023-04-30 15:36:56,773 Done checking YAML script in parser.py
+2023-04-30 15:36:56,822 Checking if helm is valid in parser.py
+2023-04-30 15:36:56,822 Done checking helm in parser.py
+2023-04-30 15:36:56,822 Checking YAML script in parser.py
+2023-04-30 15:36:56,822 Done checking YAML script in parser.py
+2023-04-30 15:36:56,903 Checking if helm is valid in parser.py
+2023-04-30 15:36:56,903 Done checking helm in parser.py
+2023-04-30 15:36:57,468 Checking if helm is valid in parser.py
+2023-04-30 15:36:57,468 Done checking helm in parser.py
+2023-04-30 15:36:57,487 Checking YAML script in parser.py
+2023-04-30 15:36:57,487 Done checking YAML script in parser.py
+2023-04-30 15:36:57,554 Checking if helm is valid in parser.py
+2023-04-30 15:36:57,554 Done checking helm in parser.py
+2023-04-30 15:36:57,973 Checking if helm is valid in parser.py
+2023-04-30 15:36:57,973 Done checking helm in parser.py
+2023-04-30 15:36:57,988 Checking YAML script in parser.py
+2023-04-30 15:36:57,988 Done checking YAML script in parser.py
+2023-04-30 15:36:58,078 Checking if helm is valid in parser.py
+2023-04-30 15:36:58,078 Done checking helm in parser.py
+2023-04-30 15:36:58,078 Checking YAML script in parser.py
+2023-04-30 15:36:58,078 Done checking YAML script in parser.py
+2023-04-30 15:36:58,150 Checking if helm is valid in parser.py
+2023-04-30 15:36:58,150 Done checking helm in parser.py
+2023-04-30 15:36:58,829 Checking if helm is valid in parser.py
+2023-04-30 15:36:58,830 Done checking helm in parser.py
+2023-04-30 15:36:58,855 Checking YAML script in parser.py
+2023-04-30 15:36:58,855 Done checking YAML script in parser.py
+2023-04-30 15:36:58,909 Checking if helm is valid in parser.py
+2023-04-30 15:36:58,909 Done checking helm in parser.py
+2023-04-30 15:36:59,380 Checking if helm is valid in parser.py
+2023-04-30 15:36:59,380 Done checking helm in parser.py
+2023-04-30 15:36:59,395 Checking YAML script in parser.py
+2023-04-30 15:36:59,395 Done checking YAML script in parser.py
+2023-04-30 15:36:59,482 Checking if helm is valid in parser.py
+2023-04-30 15:36:59,482 Done checking helm in parser.py
+2023-04-30 15:37:00,020 Checking if helm is valid in parser.py
+2023-04-30 15:37:00,020 Done checking helm in parser.py
+2023-04-30 15:37:00,037 Checking YAML script in parser.py
+2023-04-30 15:37:00,037 Done checking YAML script in parser.py
+2023-04-30 15:37:00,088 Checking if helm is valid in parser.py
+2023-04-30 15:37:00,088 Done checking helm in parser.py
+2023-04-30 15:37:00,338 Checking if helm is valid in parser.py
+2023-04-30 15:37:00,338 Done checking helm in parser.py
+2023-04-30 15:37:00,347 Checking YAML script in parser.py
+2023-04-30 15:37:00,347 Done checking YAML script in parser.py
+2023-04-30 15:37:00,419 Checking if helm is valid in parser.py
+2023-04-30 15:37:00,420 Done checking helm in parser.py
+2023-04-30 15:37:01,047 Checking if helm is valid in parser.py
+2023-04-30 15:37:01,047 Done checking helm in parser.py
+2023-04-30 15:37:01,066 Checking YAML script in parser.py
+2023-04-30 15:37:01,066 Done checking YAML script in parser.py
+2023-04-30 15:37:01,139 Checking if helm is valid in parser.py
+2023-04-30 15:37:01,139 Done checking helm in parser.py
+2023-04-30 15:37:01,703 Checking if helm is valid in parser.py
+2023-04-30 15:37:01,703 Done checking helm in parser.py
+2023-04-30 15:37:01,721 Checking YAML script in parser.py
+2023-04-30 15:37:01,721 Done checking YAML script in parser.py
+2023-04-30 15:37:01,834 Checking if helm is valid in parser.py
+2023-04-30 15:37:01,835 Done checking helm in parser.py
+2023-04-30 15:37:02,622 Checking if helm is valid in parser.py
+2023-04-30 15:37:02,622 Done checking helm in parser.py
+2023-04-30 15:37:02,647 Checking YAML script in parser.py
+2023-04-30 15:37:02,647 Done checking YAML script in parser.py
+2023-04-30 15:37:02,672 Checking if helm is valid in parser.py
+2023-04-30 15:37:02,672 Done checking helm in parser.py
+2023-04-30 15:37:02,672 Checking YAML script in parser.py
+2023-04-30 15:37:02,672 Done checking YAML script in parser.py
+2023-04-30 15:37:02,716 Checking if helm is valid in parser.py
+2023-04-30 15:37:02,716 Done checking helm in parser.py
+2023-04-30 15:37:02,925 Checking if helm is valid in parser.py
+2023-04-30 15:37:02,925 Done checking helm in parser.py
+2023-04-30 15:37:02,932 Checking YAML script in parser.py
+2023-04-30 15:37:02,932 Done checking YAML script in parser.py
+2023-04-30 15:37:02,971 Checking if helm is valid in parser.py
+2023-04-30 15:37:02,971 Done checking helm in parser.py
+2023-04-30 15:37:03,153 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,154 Done checking helm in parser.py
+2023-04-30 15:37:03,160 Checking YAML script in parser.py
+2023-04-30 15:37:03,160 Done checking YAML script in parser.py
+2023-04-30 15:37:03,208 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,208 Done checking helm in parser.py
+2023-04-30 15:37:03,370 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,370 Done checking helm in parser.py
+2023-04-30 15:37:03,375 Checking YAML script in parser.py
+2023-04-30 15:37:03,375 Done checking YAML script in parser.py
+2023-04-30 15:37:03,409 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,409 Done checking helm in parser.py
+2023-04-30 15:37:03,410 Checking YAML script in parser.py
+2023-04-30 15:37:03,410 Done checking YAML script in parser.py
+2023-04-30 15:37:03,455 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,455 Done checking helm in parser.py
+2023-04-30 15:37:03,455 Checking YAML script in parser.py
+2023-04-30 15:37:03,456 Done checking YAML script in parser.py
+2023-04-30 15:37:03,569 Checking if helm is valid in parser.py
+2023-04-30 15:37:03,569 Done checking helm in parser.py
+2023-04-30 15:37:04,541 Checking if helm is valid in parser.py
+2023-04-30 15:37:04,541 Done checking helm in parser.py
+2023-04-30 15:37:04,569 Checking YAML script in parser.py
+2023-04-30 15:37:04,569 Done checking YAML script in parser.py
+2023-04-30 15:37:04,610 Checking if helm is valid in parser.py
+2023-04-30 15:37:04,610 Done checking helm in parser.py
+2023-04-30 15:37:04,610 Checking YAML script in parser.py
+2023-04-30 15:37:04,611 Done checking YAML script in parser.py
+2023-04-30 15:37:04,693 Checking if helm is valid in parser.py
+2023-04-30 15:37:04,693 Done checking helm in parser.py
+2023-04-30 15:37:04,693 Checking YAML script in parser.py
+2023-04-30 15:37:04,693 Done checking YAML script in parser.py
+2023-04-30 15:37:04,735 Checking if helm is valid in parser.py
+2023-04-30 15:37:04,736 Done checking helm in parser.py
+2023-04-30 15:37:04,736 Checking YAML script in parser.py
+2023-04-30 15:37:04,736 Done checking YAML script in parser.py
+2023-04-30 15:37:04,800 Checking if helm is valid in parser.py
+2023-04-30 15:37:04,800 Done checking helm in parser.py
+2023-04-30 15:37:05,203 Checking if helm is valid in parser.py
+2023-04-30 15:37:05,203 Done checking helm in parser.py
+2023-04-30 15:37:05,216 Checking YAML script in parser.py
+2023-04-30 15:37:05,216 Done checking YAML script in parser.py
+2023-04-30 15:37:05,276 Checking if helm is valid in parser.py
+2023-04-30 15:37:05,276 Done checking helm in parser.py
+2023-04-30 15:37:05,567 Checking if helm is valid in parser.py
+2023-04-30 15:37:05,567 Done checking helm in parser.py
+2023-04-30 15:37:05,578 Checking YAML script in parser.py
+2023-04-30 15:37:05,579 Done checking YAML script in parser.py
+2023-04-30 15:37:05,836 Checking if helm is valid in parser.py
+2023-04-30 15:37:05,837 Done checking helm in parser.py
+2023-04-30 15:37:07,822 Checking if helm is valid in parser.py
+2023-04-30 15:37:07,822 Done checking helm in parser.py
+2023-04-30 15:37:07,884 Checking YAML script in parser.py
+2023-04-30 15:37:07,884 Done checking YAML script in parser.py
+2023-04-30 15:37:07,925 Checking if helm is valid in parser.py
+2023-04-30 15:37:07,926 Done checking helm in parser.py
+2023-04-30 15:37:08,056 Checking if helm is valid in parser.py
+2023-04-30 15:37:08,056 Done checking helm in parser.py
+2023-04-30 15:37:08,061 Checking YAML script in parser.py
+2023-04-30 15:37:08,061 Done checking YAML script in parser.py
+2023-04-30 15:37:08,099 Checking if helm is valid in parser.py
+2023-04-30 15:37:08,099 Done checking helm in parser.py
+2023-04-30 15:37:08,263 Checking if helm is valid in parser.py
+2023-04-30 15:37:08,263 Done checking helm in parser.py
+2023-04-30 15:37:08,269 Checking YAML script in parser.py
+2023-04-30 15:37:08,269 Done checking YAML script in parser.py
+2023-04-30 15:37:08,314 Checking if helm is valid in parser.py
+2023-04-30 15:37:08,314 Done checking helm in parser.py
+2023-04-30 15:37:08,464 Checking if helm is valid in parser.py
+2023-04-30 15:37:08,464 Done checking helm in parser.py
+2023-04-30 15:37:08,469 Starting to list in main.py
+2023-04-30 15:37:08,470 Done getting list in main.py
+2023-04-30 15:37:08,478 Outputting to csv file from main.py
