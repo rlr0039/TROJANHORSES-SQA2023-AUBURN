@@ -1,0 +1,30 @@
+Trojan Horses Project Report
+Blake Moore, Rachel Rook, Blake Calhoun, and Carly Ryan
+https://github.com/rlr0039/TROJANHORSES-SQA2023-AUBURN
+
+Activities performed:
+
+We created a git hook that would automatically run bandit when a user commits. 
+This also saved the bandit output to a csv file automatically, namely banditOutput.csv.
+
+The team implemented fuzzing by making a new file (fuzz.py) that fuzzed five different python methods.
+The output of this is saved to fuzzOutput.txt.
+
+Finally, we implemented software forensics into five different python methods.
+We did this through adding logging in different methods of different python files.
+The logging is saved to SIMPLE-LOGGER.log.
+
+Lessons Learned:
+
+We learned about working with, managing, and coordinating a team to complete work.
+
+We learned multiple different methods to analyze and find issues with source code.
+
+We learned about software security and taking steps to keep our code safe.
+
+We learned about using static analysis to test our code through Git hooks, and how to save these results to a comprehensive document.
+
+We learned about how to analyze code and methods to determine effective fuzzing procedures and values that will reveal errors and vulnerabilities in the code.
+
+We also learned about using simple loggers to easily create a log that is comprehensive to developers and much faster than carrying out tedious, line-by-line debugging.
+
